@@ -49,7 +49,7 @@
             this.pictureBoxExcel = new System.Windows.Forms.PictureBox();
             this.labelExcelFile = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.checkBoxAllString = new System.Windows.Forms.CheckBox();
+            this.checkBoxServerData = new System.Windows.Forms.CheckBox();
             this.checkBoxCellJson = new System.Windows.Forms.CheckBox();
             this.textBoxExculdePrefix = new System.Windows.Forms.TextBox();
             this.comboBoxSheetName = new System.Windows.Forms.ComboBox();
@@ -340,7 +340,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.checkBoxAllString);
+            this.groupBox1.Controls.Add(this.checkBoxServerData);
             this.groupBox1.Controls.Add(this.checkBoxCellJson);
             this.groupBox1.Controls.Add(this.textBoxExculdePrefix);
             this.groupBox1.Controls.Add(label7);
@@ -366,15 +366,15 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Options";
             // 
-            // checkBoxAllString
+            // checkBoxServerData
             // 
-            this.checkBoxAllString.AutoSize = true;
-            this.checkBoxAllString.Location = new System.Drawing.Point(20, 230);
-            this.checkBoxAllString.Name = "checkBoxAllString";
-            this.checkBoxAllString.Size = new System.Drawing.Size(84, 16);
-            this.checkBoxAllString.TabIndex = 16;
-            this.checkBoxAllString.Text = "All String";
-            this.checkBoxAllString.UseVisualStyleBackColor = true;
+            this.checkBoxServerData.AutoSize = true;
+            this.checkBoxServerData.Location = new System.Drawing.Point(20, 230);
+            this.checkBoxServerData.Name = "checkBoxServerData";
+            this.checkBoxServerData.Size = new System.Drawing.Size(84, 16);
+            this.checkBoxServerData.TabIndex = 16;
+            this.checkBoxServerData.Text = "Server Data";
+            this.checkBoxServerData.UseVisualStyleBackColor = true;
             // 
             // checkBoxCellJson
             // 
@@ -587,6 +587,6 @@
         private System.Windows.Forms.ToolStripButton btnSaveCSharp;
         private System.Windows.Forms.TextBox textBoxExculdePrefix;
         private System.Windows.Forms.CheckBox checkBoxCellJson;
-        private System.Windows.Forms.CheckBox checkBoxAllString;
+        private System.Windows.Forms.CheckBox checkBoxServerData;
     }
 }

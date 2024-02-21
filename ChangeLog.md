@@ -1,12 +1,10 @@
 # excel2json Change Log
 
-## TODO
-
-* 过滤规则：仅包含或者排除带有指定前缀的表单或者列
-    * exclude_prefix
-    * 典型应用：
-        * Excel中包含服务端、客户端通用数据，以及各自不用的数据
-        * 则可以把列命名为：client_AAA, server_BBB，输出时，可以通过这个前缀做数据过滤
+## Ver 1.4.0
+* modifier：zengridong
+* 修复cell_json 的bug
+* 用serverData 代替掉all_string变量，打勾即通过header区分，如果header中有client 即代表是客户端数据不再导出，其他数据都进行导出
+* 修复用前缀中的int/string来区分类型
 
 ## Ver 1.3.0
 

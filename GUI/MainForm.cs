@@ -145,7 +145,7 @@ namespace excel2json.GUI
             options.ForceSheetName = this.comboBoxSheetName.SelectedIndex == 0;
             options.ExcludePrefix = this.textBoxExculdePrefix.Text;
             options.CellJson = this.checkBoxCellJson.Checked;
-            options.AllString = this.checkBoxAllString.Checked;
+            options.ServerData = this.checkBoxServerData.Checked;
 
             //-- start import
             this.backgroundWorker.RunWorkerAsync(options);

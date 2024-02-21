@@ -26,7 +26,7 @@ namespace excel2json
                 set;
             }
 
-            [Option('j', "json", Required = false, HelpText = "export json file path.")]
+            [Option('o', "json", Required = false, HelpText = "export json file path.")]
             public string JsonPath {
                 get;
                 set;
@@ -68,7 +68,7 @@ namespace excel2json
                 set;
             }
 
-            [Option('s', "sheet", Required = false, DefaultValue = false, HelpText = "export with sheet name, even there's only one sheet.")]
+            [Option('t', "sheet", Required = false, DefaultValue = false, HelpText = "export with sheet name, even there's only one sheet.")]
             public bool ForceSheetName {
                 get;
                 set;
@@ -80,14 +80,14 @@ namespace excel2json
                 set;
             }
 
-            [Option('l', "cell_json", Required = false, DefaultValue = false, HelpText = "convert json string in cell")]
+            [Option('j', "cell_json", Required = false, DefaultValue = false, HelpText = "convert json string in cell")]
             public bool CellJson {
                 get;
                 set;
             }
 
-            [Option('l', "all_string", Required = false, DefaultValue = false, HelpText = "all string")]
-            public bool AllString
+            [Option('s', "server_data", Required = false, DefaultValue = false, HelpText = "export column or not by the header start with `server` or `client`")]
+            public bool ServerData
             {
                 get;
                 set;
